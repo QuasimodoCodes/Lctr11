@@ -1,6 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { Application } from "./applications/app";
+import * as React from "react";
+import { createRoot } from "react-dom/client";
+import { TransitMapApplication } from "./components/app/app";
 
-const root = ReactDOM.createRoot(document.getElementById("root")!);
-root.render(<Application />);
+const root = createRoot(document.getElementById("root")!);
+
+root.render(<TransitMapApplication />);
