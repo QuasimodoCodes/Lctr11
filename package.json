@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vite",
-    "test": "prettier --check . && tsc --noEmit"
+    "test": "prettier --check . && tsc --noEmit",
+    "build": "npm test && vite build"
   },
   "devDependencies": {
     "@types/react": "^18.2.75",
